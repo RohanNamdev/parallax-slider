@@ -17,6 +17,8 @@
   flex-direction: column;
 }
 
+
+
 .slide {
   min-height: 100%;
   width: 100%;
@@ -64,17 +66,13 @@
   position: absolute;
   z-index: 2;
   color: white;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
 }
 
 .heading1 {
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  z-index: 2;
-  color: white;
-  white-space: nowrap;
-  font-weight: bolder;
+  
 }
 
 .text2 {
@@ -86,17 +84,13 @@
   position: absolute;
   z-index: 2;
   color: white;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
 }
 
 .heading2 {
   top: 80%;
   left: 60%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  z-index: 2;
-  color: white;
-  white-space: nowrap;
-  font-weight: bolder;
+  
 }
 
 .text3 {
@@ -112,17 +106,24 @@
   white-space: wrap;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
 }
+
+.heading1, .heading2, .heading3{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 2;
+  color: white;
+  white-space: nowrap;
+  font-weight: bolder;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
 .heading3 {
     top: 90%;
     left: 40%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    z-index: 2;
-    color: white;
     white-space: wrap;
-    font-weight: bolder;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    
   }
+ 
 
 .btns {
   margin: 10px;
@@ -143,4 +144,47 @@
 
 .btn:hover {
   background: #555;
+}
+
+
+@media (max-width:768px) {
+  .div{
+    height:500px;
+    width:90%
+  }
+  .image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .text1, .text2{
+    font-size: 1.5rem;
+  }
+  .text3{
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  .heading1{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    white-space: wrap;
+  }
+  .heading2, .heading3{
+    margin-top:3rem ;
+    font-size: 1rem;
+    white-space: wrap;
+    margin-right: 1rem;
+  }
+  .png1{
+    width: 300px;
+  }
+  .png2{
+    margin-left: 2rem;
+    width: 100px;
+  }
+  .png3{
+    margin-bottom: 2rem;
+    width: 180px;
+  }
 }
