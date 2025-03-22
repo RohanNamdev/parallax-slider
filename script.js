@@ -43,27 +43,27 @@ const slideImages = () => {
     yoyo: true,
   });
   gsap.to(".text1", {
-    y: `${counter * 30}%`,
-    duration: 3,
+    y: `-${counter * 80}%`,
+    duration: 2,
     ease: "power2.inOut",
     repeat:-1,
     yoyo:true
   });
   gsap.to(".heading1", {
-    y: `${counter * 100}%`,
+    y: `-${counter * 50}%`,
     duration: 2.1,
-    delay: 1,
+    delay: 0.5,
     ease: "power2.inOut",
   });
   gsap.to(".text2", {
-    y: `-${counter * 150}%`,
-    duration: 2.5,
+    y: `-${counter * 100}%`,
+    duration: 2,
     ease: "power2.inOut",
   });
   gsap.to(".heading2", {
-    y: `-${counter * 100}%`,
+    y: `-${counter * 50}%`,
     duration: 2.1,
-    delay: 1,
+    delay: 0.5,
     ease: "power2.inOut",
   });
   gsap.to(".text3", {

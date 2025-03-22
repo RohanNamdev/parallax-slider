@@ -164,14 +164,26 @@
   .text3{
     font-size: 1.2rem;
     margin-left: 0.5rem;
+    top: 80%;
   }
   .heading1{
-    margin-top: 3rem;
+    top: 50%;
     font-size: 1.5rem;
     white-space: wrap;
   }
-  .heading2, .heading3{
-    margin-top:4rem ;
+
+  .heading2{
+    
+    top: 95%;
+    font-size: 1.2rem;
+    white-space: wrap;
+    left: 53%;
+
+  }
+  .heading3{
+    
+    left: 40%;
+    top: 95%;
     font-size: 1rem;
     white-space: wrap;
     margin-right: 1rem;
