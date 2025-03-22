@@ -29,7 +29,7 @@ gsap.to(png2, {
 const slideImages = () => {
   gsap.to(slides, {
     y: `-${counter * 100}%`, // Moves the slides horizontally
-    duration: 2,
+    duration: 1,
     ease: "power2.inOut",
   });
 
